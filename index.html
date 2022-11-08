@@ -1,0 +1,447 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <title>Foodies</title>
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+ 
+  <!-- OWN CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive-style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
+  <!-- header design -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images\logo.svg" class="img-fluid" alt="logo" height="200px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-stream navbar-toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#story">Our Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#health">Health Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item mt-3 mt-lg-0">
+                      <a class="orange-btn" href="#contact">Contact Us</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+  </header>
+  <!-- section-1 top-banner -->
+  <section id="home" class="banner_wrapper">
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 text-center text-lg-start order-lg-1 order-2">
+                <h1>It’s Not Just <span>Food</span>, It’s an <span>Experience</span></h1>
+                
+        <div class="mt-4">
+            <button class="orange-btn" href="#menu">Menu</button>
+            <button class="main-btn ms-lg-4 mt-lg-0 mt-4" href="#contact" >Contact us</button>
+
+        </div>
+    </div>
+    <div class="col-lg-7 text-center order-lg-2 order-0 ">
+        <img src="images\food.png" style="float:right" class="img-fluid">
+    </div>
+    </div>
+
+  <!-- section-2 counter -->
+  <section id="counter">
+    <section class="counter-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count1"></span>+
+            </h2>
+            <p>Happy Customers</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count2"></span>+
+            </h2>
+            <p>PHOTOS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count3"></span>+
+            </h2>
+            <p>Dishes</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count4"></span>+
+            </h2>
+            <p>Stores</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- section-3 about-->
+  <section id="story">
+    <div class="about-section wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+            <div class="card border-0">
+              <img src="images\About\about2.png" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 text-sec">
+           <h2 class="black">We pride ourselves on making real food from the best ingredients.</h2>
+           <p>This prompted the burning desire for transparency in all of the ingredients we use. Everything we make is listed on the label and there’s no mystery ingredients or natural flavors to hide. We use the best of what Mother Nature has to offer.</p>
+             <button class="orange-btn mt-4">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="container food-type">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+           <h2 class="black">We make everything by hand with the best possible ingredients.</h2>
+           <p>We believe that honesty and simplicity are the keys to meeting the challenges of everyday life. That's why we created a simple snack that we believe will help encourage you to live a healthier life. You'll be amazed at how the smallest changes can have the biggest impact. We want you to know that we promise to deliver the best we have to offer every time.</p>
+           <ul class="list-unstyled py-3">
+             <li>Fresh ingredients from Farm</li>
+             <li>Quick and fast service</li>
+             <li>Hygiene and sanitized</li>
+           </ul> 
+           <button class="orange-btn mt-4">Learn More</button>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="card border-0">
+              <img src="images\About\about1.png" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+   <!-- menu section -->
+  
+
+<!-- Offer Section -->
+<section id="menu" class="offers_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center mb-4">
+                <h2 class="black">Our Menu</h2>
+                <p>There are many variations of food however,<br class="d-none d-md-block">
+                  Tantalizing food can make a huge difference.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card rounded-0" style="background-image: url('images/menu/tandoori.png')">
+                    <div class="offer-text bg-black bg-opacity-50">
+                        <h3 class="text-white">Tandoori chicken</h3>
+                        <h5>$8.50 <del class="fst-italic opacity-75">$10.50</del></h5>
+                        <a href="#" class="white-btn mt-3">Add TO Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card rounded-0" style="background-image: url('images/menu/chicken-tikka.png')">
+                    <div class="offer-text bg-black bg-opacity-50">
+                        <h3 class="text-white">Chicken Tikka </h3>
+                        <h5>$18.50 <del class="fst-italic opacity-75">$20.50</del></h5>
+                        <a href="#" class="white-btn mt-3">Add TO Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card rounded-0" style="background-image: url('images/menu/grilled-chicken.png')">
+                    <div class="offer-text bg-black bg-opacity-50">
+                        <h3 class="text-white">Grilled Chicken</h3>
+                        <h5>$15 <del class="fst-italic opacity-75">$20</del></h5>
+                        <a href="#" class="white-btn mt-3">Add TO Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card rounded-0" style="background-image: url('images/menu/lemon-chicken.png')">
+                    <div class="offer-text bg-black bg-opacity-50">
+                        <h3 class="text-white">Lemon Chicken</h3>
+                        <h5>$8.50 <del class="fst-italic opacity-75">$10.50</del></h5>
+                        <a href="#" class="white-btn mt-3">Add TO Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card rounded-0" style="background-image: url('images/menu/cajun-chicken.png')">
+                    <div class="offer-text bg-black bg-opacity-50">
+                        <h3 class="text-white">Cajun Chicken</h3>
+                        <h5>$12.50 <del class="fst-italic opacity-75">$20.50</del></h5>
+                        <a href="#" class="white-btn mt-3">Add TO Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card rounded-0" style="background-image: url('images/menu/chicken-kiev.png')">
+                    <div class="offer-text bg-black bg-opacity-50">
+                        <h3 class="text-white">Chicken Kiev</h3>
+                        <h5>$8.50 <del class="fst-italic opacity-75">$10.50</del></h5>
+                        <a href="#" class="white-btn mt-3">Add TO Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Section-5 testimonial-->
+  <section id="review">
+    <div class="wrapper testimonial-section">
+      <div class="container text-center">
+        <div class="text-center pb-4">
+          <h2>Reviews</h2>
+        </div>
+        <div class="row">
+         <div class="col-sm-12 col-lg-10 offset-lg-1">
+           <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+             <div class="carousel-indicators">
+               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                 aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                 aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                 aria-label="Slide 3"></button>
+             </div>
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <div class="carousel-caption">
+                   <img src="images\reviwers\reviwe1.png">
+                   <p>"We believe that honesty and simplicity are the keys to meeting the challenges of everyday life. We want you to know that we promise to deliver the best we have to offer every time."
+
+                   </p>
+                   <h5 class="orange">Johnthan Doe - Times Now</h5>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <div class="carousel-caption">
+                   <img src="images\reviwers\review2.jpg">
+                   <p>"The absolute best red sauce. Weather on Pizza or Pasta, it’s honestly delicious. Portions are huge and the staff is extremely friendly and courteous. "</p>
+                   <h5 class="orange">Maccy Doe - Ziggle Foods</h5>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <div class="carousel-caption">
+                   <img src="images\reviwers\review-3.jpeg">
+                   <p>"Very good service, good menu … not overly extensive. Food was very good quality all around. They know how to prepare home fries and their omelets are top-notch. Prices were reasonable.. "</p>
+                   <h5 class="orange">Johnthan Doe - Hello Food reviews</h5>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- section-6 Health tips-->
+  <br><br>
+
+  <section id="health" class="review_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-7 col-sm-7">
+              <div class="text-center pb-4">
+                <h2 class="black">Health Tips</h2>
+                <p>Eat healthy</p>
+              </div>
+                <div class="card rounded-0 bg-white p-2">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-caption">
+                                    <img src="images\icons\apple.png">
+                                    <h3>Eat A healthy diet</h3>
+                                    <p>Eat a combination of different foods, including fruit, vegetables, legumes, nuts and whole grains. 
+                                      Adults should eat at least five portions (400g) of fruit and vegetables per day. 
+                                      You can improve your intake of fruits and vegetables by always including veggies in your meal.
+                                      </p>
+                                    <a href="#" class="main-btn mt-4">Learn More</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption">
+                                    <img src="images\icons\water.png">
+                                    <h3>Stay Hydrated</h3>
+                                    <p>Our bodies are roughly 60 percent water.Staying hydrated will also improve your body’s ability to absorb nutrients, as well as keep your digestive system regular Adequate water is important for healthy gastrointestinal functioning.</p>
+                                    <a href="#" class="main-btn mt-4">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+  <!-- section-7 Gallery-->
+ <!-- Gallery -->
+ <br><br>
+<section id="gallery">
+  <div class="text-center pb-4">
+    <h1 >Follow Us</h1>
+    <a target="_blank" href="https://www.instagram.com/d3faltxd/"><h3 style="color:var(--primary-color)">@Kabab_and_kurry</h3></a>
+    
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <a target="_blank" href="https://www.instagram.com/d3faltxd/"><img
+      src="images\gallery\food.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+      /></a>
+      
+      <a target="_blank" href="https://www.instagram.com/d3faltxd/"><img
+      src="images\gallery\big.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+      /></a>
+  </div>
+  
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <a target="_blank" href="https://www.instagram.com/d3faltxd/"><img
+    src="images\gallery\vert3.jpg"
+    class="w-100 shadow-1-strong rounded mb-4"
+    alt="Mountains in the Clouds"
+    /></a>
+    
+    <a target="_blank" href="https://www.instagram.com/d3faltxd/"><img
+    src="images\gallery\food2.png"
+    class="w-100 shadow-1-strong rounded mb-4"
+    alt="Boat on Calm Water"
+    /></a>
+  </div>
+  
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <a target="_blank" href="https://www.instagram.com/d3faltxd/"> <img
+    src="images\gallery\food3.jpg"
+    class="w-100 shadow-1-strong rounded mb-4"
+    alt="Waves at Sea"
+    /></a>
+    
+    <a target="_blank" href="https://www.instagram.com/d3faltxd/"><img
+    src="images\gallery\tandoor.jpg"
+    class="w-100 shadow-1-strong rounded mb-4"
+    alt="Yosemite National Park"
+    /></a>
+  </div>
+</div>
+</section>
+
+<!-- section-8 newslettar-->
+<section id="contact">
+  <div class="newslettar wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="sol-sm-12">
+            <div class="text-content text-center pb-4">
+             <h2 class="black">Hurry up! Subscribe our newsletter
+               and get 25% Off</h2>
+             <p>Limited time offer for this month. No credit card required. </p>
+            </div>
+            <form class="newsletter">
+              <div class="row">
+                <div class="col-md-8 col-12">
+                  <input class="form-control" placeholder="Email Address here" name="email" type="email">
+                </div>
+                <div class="col-md-4 col-12">
+                  <button class="main-btn" type="submit">Subscribe</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- section-9 footer-->
+ <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-lg-4 col-md-6 text-center text-md-start">
+              <div class="footer-logo mb-3 mb-md-0">
+                  <img src="images\logo.svg">
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+              <ul
+                  class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center jus social-icon mb-3 mb-md-0">
+                  <li>
+                      <a href="https://www.instagram.com/d3faltxd/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                      <a href="https://twitter.com/G2Ahri" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+                  </li>
+                  <li>
+                      <a href="https://twitter.com/G2Ahri" target="_blank"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                      <a href="https://www.linkedin.com/in/roy-sayan-lpu/" target="_blank"><i class="fab fa-linkedin-in"></i> </a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-lg-4 col-md-12">
+              <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+                  <p class="mb-0">Copyright © 2022 <a href="#">Kabab and Kurry</a>. All Rights Reserved.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+  <!-- own js -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+

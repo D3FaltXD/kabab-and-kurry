@@ -1,0 +1,62 @@
+@media (max-width: 991px) {
+.testimonial-section .carousel-item .carousel-caption p{
+    padding:0;
+}
+}
+@media (max-width: 767px) {
+
+    /* custom css */
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /* Menu */
+    .menu_wrapper .row {
+        padding-top: 70px;
+    }
+
+    .menu_wrapper .card h3 span {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 30px;
+    }
+
+    /* offers */
+    .offers_wrapper .card .offer-text {
+        width: 65%;
+    }
+
+    /* review */
+    .carousel-caption {
+        bottom: 0;
+    }
+
+    .review_wrapper .carousel-item {
+        min-height: 460px;
+    }
+    .testimonial-section .carousel-item{
+        padding:11rem 3.125rem;
+    }
+    .newsletter{
+        width:75%;
+    }
+    .newsletter .main-btn{
+        width:100%;
+        margin-top:1rem;
+    }
+}
+@media (max-width:330px) {
+
+    /* carousel design */
+    .testimonial-section .carousel-item{
+        padding:13rem 3.125rem;
+    }
+     
+}
