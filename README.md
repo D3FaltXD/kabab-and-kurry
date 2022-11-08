@@ -1,4 +1,4 @@
-<div><img src="images\banner.png" ></div>
+<div><img src="images\banner2.png" ></div>
 
 <br><br>
 
