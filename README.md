@@ -1,10 +1,9 @@
-
+<center><img src="images\logo2.svg" width="500"></center>
 <img src="images\website.png">
-
 <br>
 <br>
 
-# Kabab and Kurry
+# About
 
 A Responsive Website Built using HTML, CSS, JS and Bootstrap.
 
